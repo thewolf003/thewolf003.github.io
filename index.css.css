@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;            
+}
+
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    line-height: 1.4705882353;
+    background: rgb(255, 255, 255);    
+    margin: 0;
+    padding: 0;
+    height: auto;
+    /*
+    font-size: 17px;
+	line-height: 1.4705882353;
+	font-weight: 400;
+	letter-spacing: -0.022em;
+	font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-style: normal;	
+    background: rgb(255, 255, 255);
+	width: 100%;
+	overflow-x: hidden;
+    */
+}
+.container{
+    padding: 60px;
+    display: inline-block;
+    width: auto;
+    height: 2550px;    
+    background: rgba(32,89,82,255) linear-gradient(to bottom right, rgba(255, 255, 255, 0.2) , rgba(0, 0, 0,0.8));;    
+    margin: auto;
+}
+.titlebar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 140px;   
+    margin-bottom: 60px;         
+}
+.user-profile{    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.u-profile{
+    background: #122029;
+    width: 120px;
+    height: 120px;
+    font-size: 48px;
+    padding: 12px;
+    border: 8px solid #052f32;
+    border-radius: 60px;
+    color: rgba(255, 255, 255, 0.882);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+.menu{       
+    width: 50%;    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 140px;    
+}
+#searchtype{
+    padding-left: 125px;
+    color: #576e87;  
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+#searchtype:focus {
+    outline: none !important;    
+}
+
+.s-bar-container{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+}
+.s-bar-container input{
+    background: #122029;
+    border-radius: 20px;            
+    padding: 12px;    
+    font-family: Roboto, sans-serif;
+    font-size: 88px;
+    max-width: 800px;
+    border: none;    
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+label{
+    margin-left: 20px;
+    position: absolute;
+}
+.fa-search:before {
+    content: "\f002";
+}
+.fa-search{
+    margin-left: 20px;
+    font-size: 68px;
+    color: #576e87;
+}
+.options{
+    background: #122029;
+    width: 120px;
+    height: 120px;
+    font-size: 68px;
+    padding: 12px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.882);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.mainImg{
+    height: auto;
+    width: 100%;
+}
+.d-name{
+    font-family: 'Lemon', cursive;
+    font-size: xxx-large;    
+    padding: 40px;
+    line-height: 90%;
+    color: rgba(255, 255, 255, 0.578);
+}
+.banner{    
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.banner img{
+    object-fit: contain;
+    width: 100%;    
+}
+.column1 {    
+    float: left;
+    width: 80%;
+}
+.column2 {        
+    float: left;
+    width: 20%;    
+}
+.sizes{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.sizes div{
+    margin-bottom:100px ;
+    border: 1px solid white;
+}
+.banner:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.data{        
+    padding: 0 80px 0 80px;
+    display: flex;        
+    justify-content: space-between;
+    height: 60px;
+    width: 900px;  
+    max-width: 100%;  
+}
+.data-col{
+    display: flex;
+    align-items: center;    
+    font-family: 'Literata', serif;
+    color: rgba(255, 255, 255, 0.516);
+    font-size: 40px;
+    width: auto;    
+}
+.description{
+    font-family: 'Literata', serif;
+    color: rgba(255, 255, 255, 0.714);
+    height: 200px;
+    width: 100%;      
+    font-size: 50px;  
+    margin-top: 90px;
+    margin-bottom: 330px;
+}
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 150px;
+    width: 100%;      
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button input{
+    margin-right: 40px;
+    width: 430px;
+    border-radius: 90px;
+    background-color: #122029;
+    border: none;
+    font-family: 'Literata', serif;
+    color: rgba(255, 255, 255, 0.714);
+    font-size: 60px;
+    height: 150px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
